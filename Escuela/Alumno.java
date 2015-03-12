@@ -1,20 +1,20 @@
 package Escuela;
 
 public class Alumno{
-   private int numCuenta;
+   private int numeroCuenta;
    private String primerNombre;
    private String apellido;
    private int nota;   
    
-    public Alumno(int numCuenta, String primerNombre, String apellido) {
-        this.numCuenta = numCuenta;
+    public Alumno(int numeroCuenta, String primerNombre, String apellido) {
+        this.numeroCuenta = numeroCuenta;
         this.primerNombre = primerNombre;
         this.apellido = apellido;
     }
 
     //GETs
     public int getNumCuenta() {
-        return numCuenta;
+        return numeroCuenta;
     }
 
     public String getPrimerNombre() {
