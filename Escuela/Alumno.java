@@ -17,6 +17,8 @@ public class Alumno{
         return numCuenta;
     }
 
+    System.out.println("HOLAAAAA!!!!!");
+
     public String getPrimerNombre() {
         return primerNombre;
     }
